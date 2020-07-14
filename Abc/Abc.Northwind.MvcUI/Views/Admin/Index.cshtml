@@ -1,0 +1,41 @@
+﻿@model Abc.Northwind.MvcUI.Models.ProductListViewModel
+
+
+@{
+    Layout = "~/Views/_AdminLayout.cshtml";
+}
+
+<h3 style="margin:20px"> Product List</h3>
+<br />
+<td style="margin-left:300px" ><a class="btn btn btn-success float-right" asp-controller="Admin" asp-action="Add">Add a new product</a></td>
+<br />
+<br />
+<br />
+
+<table class="table ">
+    <tr>
+        <td>Product Name</td>
+        <td>Unit Price</td>
+        <td>Unıts In Stock</td>
+        <td>Category Id</td>
+        <td></td>
+        <td></td>
+        
+    </tr>
+    @foreach (var item in Model.Products)
+    {
+        <tr>
+            <td>@item.ProductName</td>
+            <td>@item.UnitPrice</td>
+            <td>@item.UnitsInStock</td>
+            <td>@item.CategoryId</td>
+          
+
+            <td><a class="btn btn-xs btn-info" asp-controller="Admin" asp-action="Update" asp-route-productId="@item.ProductId">Update selected product</a></td>
+            <td><a class="btn btn-xs btn-danger" asp-controller="Admin" asp-action="Delete" asp-route-productId="@item.ProductId">Delete product</a></td>
+        </tr>
+
+    }
+
+</table>
+<div><a class="btn btn-warning" asp-controller="Admin" asp-action="List">Take a look to Shipping Details!</a></div>

@@ -1,0 +1,203 @@
+﻿@model Abc.Northwind.MvcUI.Models.ProductListViewModel
+
+
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+<style>
+
+    .carousel-inner {
+        width: 1735px;
+        height: 700px;
+        padding-left: 0px;
+        margin-top: 75px;
+        margin-bottom: 10px;
+    }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+    #yazi {
+        margin-bottom: 200px;
+        margin-right: 750px;
+    }
+
+    #baslik {
+        margin-bottom: 50px;
+        margin-right: 750px;
+      
+    }
+
+    #second {
+        margin-left: 1000px;
+    }
+
+    #third {
+        margin-bottom: 30px;
+    }
+
+    #thirdtwo {
+        margin-bottom: 100px;
+    }
+    #fourth {
+        margin-left:850px;
+    }
+    #fourthtwo {
+        margin-bottom:200px;
+        margin-left:850px;
+    }
+    #fifth {
+       
+        margin-right: 900px;
+    }
+    #fifthtwo{
+        margin-bottom:150px;
+        margin-right:900px;
+    }
+    #sixthtwo {
+        margin-bottom: 150px;
+    }
+    #seventh{
+        margin-bottom:30px;
+        margin-left: 700px;
+    }
+    #seventhtwo{
+        margin-bottom:170px;
+        margin-left:700px;
+    }
+</style>
+
+@section CaruselSection{
+
+
+    <div id="demo" class="carousel slide mt-4" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="5"></li>
+            <li data-target="#demo" data-slide-to="6"></li>
+        </ul>
+
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://previews.123rf.com/images/tbralnina/tbralnina1903/tbralnina190300218/119137303-sources-of-healthy-protein-meat-fish-dairy-products-nuts-legumes-and-grains-.jpg" alt="Los Angeles">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:300px;">
+                    <h1 id="baslik" class="text-info " style="font-size:36px">
+                        <strong>
+                            Beverages
+                        </strong>
+                    </h1>
+                    <h3 id="yazi" class="text-white ">With Cheap prices <i class="fa fa-gift" style="font-size:36px"></i></h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.empire-empire.com/exhibition/wp-content/uploads/2016/07/EMPIRE-MEDIA-Seafood-Expo-Asia-2016-to-Explore-Key-Trends-Driving-Growth-of-the-Industry-in-Asia-1000x518.jpg" alt="Chicago">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:300px;">
+                    <h1 id="second" class="text-danger "><strong>Sea Foods</strong></h1>
+                    <h3 id="second" class="text-white ">Freash daily sea foods</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://c8.alamy.com/comp/PPPT7C/composition-of-various-spices-and-condiments-PPPT7C.jpg" alt="New York">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:300px;">
+                    <h1 id="third" class="text-info "><strong>Condiments</strong></h1>
+                    <h3 id="thirdtwo" class="text-white ">rare kinds with low prices</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.gettyimages.com/photos/variety-of-grains-picture-id1126126003" alt="New York">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:300px;">
+                    <h1 id="fourth" class="text-danger"><strong>Grains & Cereals </strong></h1>
+                    <h3 id="fourthtwo" class="text-danger ">Plenty kind of Grains </h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://previews.123rf.com/images/yuliaff/yuliaff1803/yuliaff180300548/98255160-assortment-of-various-dairy-products-.jpg" alt="New York">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:300px;">
+                    <h1 id="fifth" class="text-info "><strong>Dairy Products</strong></h1>
+                    <h3 id="fifthtwo" class="text-white ">Daily delivery </h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/juicy-steak-rare-beef-with-spices-wooden-board-garnish-asparagus_2829-1513.jpg?size=626&ext=jpg" alt="New York">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:300px;">
+                    <h1 id="sixth" class="text-info "><strong>Meat and Poultry </strong></h1>
+                    <h3 id="sixthtwo" class="text-white ">Fresh and Cheap</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.theindianwire.com/wp-content/uploads/2018/06/fresh-colorful-fruits-and-vegetables_free_stock_photos_picjumbo_HNCK7947-2210x1474.jpg" alt="New York">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:300px;">
+                    <h1 id="seventh" class="text-primary "><strong>Vegetables</strong></h1>
+                    <h3 id="seventhtwo" class="text-primary ">Daily dalivery without extra payment</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+
+}
+
+
+
+<div class="container">
+    <form asp-controller="Product" asp-action="Index" method="post">
+        <div class="form-group">
+
+            <input asp-for="Key" class="form-control" placeholder="Product Name">
+            <span asp-validation-for="Key"></span><br />
+            <input type="submit" value="Search a Product " class="btn btn-xs btn-outline-success container-fluid " />
+        </div>
+    </form>
+</div>
+<div>
+    <div class="row">
+        @foreach (var product in Model.Products)
+        {
+            <div style="margin:10px 10px" class="card-deck ">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.mutfakgram.com/wp-content/uploads/2019/08/seftali-serbeti-tarifi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.ProductName</h5>
+                        <p class="card-text">@product.UnitPrice</p>
+                        <p class="card-text"> @product.UnitsInStock</p>
+                        <a class="btn " style="background-color: Tomato;color:yellow" asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@product.ProductId">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
+<product-list-pager current-category="@Model.CurrentCategory"
+                    current-page="@Model.CurrentPage"
+                    page-count="@Model.PageCount"
+                    page-size="@Model.PageSize">
+
+</product-list-pager>
+
+
+
+
+
+

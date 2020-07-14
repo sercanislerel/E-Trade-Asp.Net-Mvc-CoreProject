@@ -1,0 +1,14 @@
+﻿@model Abc.Northwind.MvcUI.Models.UserDetailsViewModel
+
+
+
+@if (!string.IsNullOrEmpty(Model.UserName))
+{
+    
+<li class="nav-item">
+    <a class="nav-link" href="#"> Welcome @Model.UserName </a>
+</li>
+
+}
+  
+

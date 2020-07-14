@@ -1,0 +1,16 @@
+﻿@model Abc.Northwind.MvcUI.Models.CategoryListViewModel
+
+    <li class="nav-item">
+        @foreach (var category in Model.Categories)
+        {
+            var css = "nav-link";
+            @if (category.CategoryId == Model.CurrentCategory)
+            {
+                css = "nav-link text-warning";
+            }
+            <a href="/product/index?category=@category.CategoryId" class="@css"> <h5>@category.CategoryName</h5></a>
+           
+                
+        }
+
+    </li>

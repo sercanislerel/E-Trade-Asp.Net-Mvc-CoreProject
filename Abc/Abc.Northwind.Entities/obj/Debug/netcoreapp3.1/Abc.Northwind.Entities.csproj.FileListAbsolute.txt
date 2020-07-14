@@ -1,0 +1,12 @@
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\bin\Debug\netcoreapp3.1\Abc.Northwind.Entities.deps.json
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\bin\Debug\netcoreapp3.1\Abc.Northwind.Entities.dll
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\bin\Debug\netcoreapp3.1\Abc.Northwind.Entities.pdb
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\bin\Debug\netcoreapp3.1\Abc.core.dll
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\bin\Debug\netcoreapp3.1\Abc.core.pdb
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.csprojAssemblyReference.cache
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.AssemblyInfoInputs.cache
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.AssemblyInfo.cs
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.csproj.CopyComplete
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.dll
+C:\Users\Sercan İŞLEREL\Source\Repos\Abc\Abc.Northwind.Entities\obj\Debug\netcoreapp3.1\Abc.Northwind.Entities.pdb

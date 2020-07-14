@@ -1,0 +1,15 @@
+﻿@model Abc.Northwind.MvcUI.Models.CartSummaryViewModel
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<script src="~/lib/jQuery-Validation-Engine/jquery.validationEngine.min.js"></script>
+
+@foreach (var item in Model.Cart.CartLines)
+{
+
+  
+    <a class="dropdown-item" href="#">@item.product.ProductName <span class="badge ">@item.Quantity</span><i class="fa fa-cart-arrow-down"></i></a>
+
+}
+<div class="dropdown-divider"></div>
+<a class="dropdown-item">@Model.Cart.Total <i class="fa fa-credit-card"></i></a>
+<a class="dropdown-item" asp-controller="Cart" asp-action="List">Go to cart details <i class="fa fa-calculator"></i></a>
+

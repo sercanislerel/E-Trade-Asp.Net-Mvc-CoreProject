@@ -1,0 +1,130 @@
+﻿@model Abc.Northwind.MvcUI.Models.CustomerListViewModel
+
+
+@{
+    Layout = "~/Views/_AdminLayout.cshtml";
+}
+
+<h3  style="margin:20px"> Order Details List </h3>
+
+<br />
+
+<table class="table table-hover ">
+    <tr>
+        <td>Company Name</td>
+        <td>Contact Name</td>
+        <td>Customer Id</td>
+        <td>Phone Number</td>
+        <td>City</td>
+        <td>Country</td>
+        <td>Address</td>
+        <td>Postal Code</td>
+
+
+    </tr>
+    @foreach (var customer in Model.Customers)
+    {
+        <tr>
+            <td>@customer.ContactName</td>
+            <td>@customer.CompanyName</td>
+            <td>@customer.CustomerId</td>
+            <td>@customer.City</td>
+            <td>@customer.Country</td>
+            <td>@customer.Address</td>
+            <td>@customer.Phone</td>
+            <td>@customer.PostalCode</td>
+        </tr>
+    }
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*@model Abc.Northwind.MvcUI.Models.CustomerListViewModel
+    @{
+        Layout = "~/Views/_AdminLayout.cshtml";
+    }
+
+
+    <table class="table table-striped">
+        <tr>
+            <td>Company Name</td>
+            <td>Contact Name</td>
+            <td>Customer Id</td>
+            <td>Phone Number</td>
+            <td>City</td>
+            <td>Country</td>
+            <td>Address</td>
+            <td>Postal Code</td>
+        </tr>
+        @foreach (var item in Model.Customers)
+        {
+            <tr>
+                <td>@item.CompanyName</td>
+                <td>@item.ContactName</td>
+                <td>@item.CustomerId</td>
+                <td>@item.Phone</td>
+                <td>@item.City</td>
+                <td>@item.Country</td>
+                <td>@item.Address</td>
+                <td>@item.PostalCode</td>
+
+
+
+            </tr>
+
+        }
+
+    </table>*@
+@*<div><a class="btn btn-warning" asp-controller="Admin" asp-action="Index">Return</a></div>*@

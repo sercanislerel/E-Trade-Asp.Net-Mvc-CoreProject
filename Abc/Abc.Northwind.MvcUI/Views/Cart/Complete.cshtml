@@ -1,0 +1,56 @@
+﻿@model Abc.Northwind.MvcUI.Models.CustomerDetailsViewModel
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+    <div class="container" style="margin-top:75px;">
+      <h3>Shipping Details</h3>
+        <form asp-controller="Cart" asp-action="Complete" method="post">
+            <div class="form-group">
+                <label asp-for="Customer.CustomerId"></label>
+                <input asp-for="Customer.CustomerId" class="form-control" placeholder="Customer Id">
+                <span asp-validation-for="Customer.CustomerId"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Customer.ContactName"></label>
+                <input asp-for="Customer.ContactName" class="form-control" placeholder="First Name">
+                <span asp-validation-for="Customer.ContactName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.CompanyName"></label>
+                <input asp-for="Customer.CompanyName" class="form-control" placeholder="Last Name">
+                <span asp-validation-for="Customer.CompanyName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Address"></label>
+                <input asp-for="Customer.Address" class="form-control" placeholder="Address">
+                <span asp-validation-for="Customer.Address"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Country"></label>
+                <input asp-for="Customer.Country" class="form-control" placeholder="City">
+                <span asp-validation-for="Customer.Country"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Customer.Phone"></label>
+                <input asp-for="Customer.Phone" class="form-control" placeholder="City">
+                <span asp-validation-for="Customer.Phone"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Customer.City"></label>
+                <input asp-for="Customer.City" class="form-control" placeholder="City Yeni">
+                <span asp-validation-for="Customer.City"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Customer.PostalCode"></label>
+                <input asp-for="Customer.PostalCode" class="form-control" placeholder="City">
+                <span asp-validation-for="Customer.PostalCode"></span>
+            </div>
+            <input asp-controller="Cart" asp-action="Complete" type="submit" value="Complete Shopping" class="btn btn-xs btn-success float-right" />
+        </form>
+
+
+    </div>
