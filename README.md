@@ -6,8 +6,8 @@ It is an e-trade website workshop using by Asp.net Mvc Core with Northwind Datab
 # Download Database of Project
 https://docs.microsoft.com/tr-tr/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases
 # About Platform Used
-Microsoft Visual Studio Community 2019
-Microsoft SQL Server 2012
+-Microsoft Visual Studio Community 2019
+-Microsoft SQL Server Managment Studio 2018
 # External packages which are used in .Net Core Project
   - Aspnetcore.Identity.EntityFrameworkCore
   - Aspnetcore.Authentication.Cookies
